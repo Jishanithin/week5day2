@@ -6,10 +6,10 @@
 	<parameter name="password" value="crmsfa"></parameter>
 	<test thread-count="5" parallel="classes" name="Test" verbose="5">
 		<classes>
-			<class name="week5day1.CreateLead" />
-			<class name="week5day1.DeleteLead" />
-			<class name="week5day1.EditLead" />
-			<class name="week5day1.DuplicateLead" />
+			   <class name="week5day2.AssignEditLead"/>
+                           <class name="week5day2.AssignCreateLead"/>
+                           <class name="week5day2.AssignDeleteLead"/>
+                           <class name="week5day2.AssignDuplicateLead"/>
 
 
 		</classes>
